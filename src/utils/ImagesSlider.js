@@ -16,7 +16,7 @@ const ImageSliderContainer = () => {
 
   return (
     <div>
-      <h2>Slider</h2>
+      <h2>Image Slider</h2>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
