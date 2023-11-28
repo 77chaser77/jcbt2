@@ -36,6 +36,11 @@ const ImageSliderContainer = () => {
         {imagesData.map((image, index) => (
           <SwiperSlide key={index}>
             <img src={image.url} alt={image.alt} />
+            <p className="overlay-text">
+              TEST 텍스트
+              <br />
+              JCBT에 오신걸 환영합니다.
+            </p>
           </SwiperSlide>
         ))}
 

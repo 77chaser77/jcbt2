@@ -51,3 +51,14 @@
 .slider-controler:hover .slider-arrow {
   opacity: 1;
 }
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* 텍스트 색상 조절 가능 */
+  font-size: 20px; /* 텍스트 크기 조절 가능 */
+  /* 다른 스타일 조정도 가능 */
+}
